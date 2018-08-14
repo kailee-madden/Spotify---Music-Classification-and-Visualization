@@ -1,2 +1,4 @@
 # Spotify---Music-Classification-and-Visualization
 Using the Spotify API to pull audio data on playlists then cluster those songs and use data visualization to understand their relative similarity
+Pulling the audio data for the songs of a playlists requires Spotify developer access (free). I pulled the data that I required and put it into a csv file. Then I manipulated that data within Jupyter Notebook.
+The data visualization is a voronoi tesselation that has the numbers of each song's associated cluster overlayed. Originally I had the song names overlayed on the colorful visualization, but I found that it was too crowded and took away from the appeal of the visualization in the first place. This way, it is still possible to understand where songs are clustered while still keeping it simple.
